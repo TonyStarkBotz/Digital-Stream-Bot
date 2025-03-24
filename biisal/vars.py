@@ -7,8 +7,8 @@ from dotenv import load_dotenv
 
 load_dotenv()
 bot_name = "Bɪɪsᴀʟ Fɪʟᴇ2Lɪɴᴋ Bᴏᴛ"
-bisal_channel = "https://telegram.me/bisal_files"
-bisal_grp = "https://t.me/+PA8OPL2Zglk3MDM1"
+bisal_channel = "https://telegram.me/DigitalGalaxyHQ"
+bisal_grp = "https://t.me/DigitalGalaxyHQxSupport"
 
 class Var(object):
     MULTI_CLIENT = False
@@ -40,7 +40,7 @@ class Var(object):
     else:
         URL = "http://{}/".format(FQDN)
     DATABASE_URL = str(getenv('DATABASE_URL', 'mongodb+srv://SaveR:SaveR@restrict.fj8cdla.mongodb.net/?retryWrites=true&w=majority'))
-    UPDATES_CHANNEL = str(getenv('UPDATES_CHANNEL', 'TonyStark_Botz')) 
+    UPDATES_CHANNEL = str(getenv('UPDATES_CHANNEL', 'DigitalGalaxyHQ')) 
     BANNED_CHANNELS = list(set(int(x) for x in str(getenv("BANNED_CHANNELS", "")).split()))   
     BAN_CHNL = list(set(int(x) for x in str(getenv("BAN_CHNL", "")).split()))   
     BAN_ALERT = str(getenv('BAN_ALERT' , '<b>ʏᴏᴜʀ ᴀʀᴇ ʙᴀɴɴᴇᴅ ᴛᴏ ᴜsᴇ ᴛʜɪs ʙᴏᴛ.Pʟᴇᴀsᴇ ᴄᴏɴᴛᴀᴄᴛ @TonyContactBot ᴛᴏ ʀᴇsᴏʟᴠᴇ ᴛʜᴇ ɪssᴜᴇ!!</b>'))
